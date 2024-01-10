@@ -4,7 +4,7 @@ class DBManager:
     def  __init__(self):
         self.conn = psycopg2.connect(
             database='shop_db_samariddin',
-            user='postgres',
+            user='bot',
             password='1111',
             host='localhost',
             port='5432',
