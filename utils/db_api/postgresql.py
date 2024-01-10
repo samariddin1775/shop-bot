@@ -3,10 +3,10 @@ import sqlite3
 class DBManager:
     def  __init__(self):
         self.conn = psycopg2.connect(
-            database='shop.db',
+            database='shop_db_samariddin',
             user='postgres',
             password='1111',
-            host='',
+            host='localhost',
             port='5432',
 
         )
